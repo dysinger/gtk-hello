@@ -12,14 +12,8 @@ executable gtk-hello
   default-language:    Haskell2010
   main-is:             Main.hs
   build-depends:       base >=4.6 && <4.7
-                     -- gtk2hs
-                     -- , cairo
-                     -- , gio
-                     -- , glade
-                     -- , glib
+                     -- gtk/glade
                      , gtk
-                     -- , gtkglext
-                     -- , gtksourceview2
-                     -- misc
+                     -- embed glade files
                      , file-embed
                      , utf8-string
