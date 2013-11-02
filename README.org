@@ -1,0 +1,27 @@
+#+TITLE:   Gtk2Hs/Glade Haskell Hello World Example (using GtkBuilder)
+#+AUTHOR:  Tim Dysinger
+#+EMAIL:   Tim Dysinger <tim@dysinger.net>
+#+DATE:    <2013-11-02 Sat>
+
+* Install
+
+  This project is an update to the Gtk2Hs hello world you can easly
+  find on the Google.
+  http://projects.haskell.org/gtk2hs/docs/tutorial/glade/
+
+  The old tutorial uses an outdated & deprecated section of the Gtk2Hs
+  libraries.  This project is updated to use GtkBuilder but follows
+  the code in the tutorial.
+ 
+  You need to install glade-gtk to design the UI or to load the .ui
+  file & modify the design. You also need haskell's gtk2hs group of
+  dependencies installed.
+
+  On ubuntu you can install all of these with the following:
+  #+begin_src sh
+    sudo apt-get install -y glade-gtk2 libghc-glade-dev libghc-gtk-dev
+  #+end_src
+
+* Build
+
+  Normal build with cabal
